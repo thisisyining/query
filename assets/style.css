@@ -1,67 +1,18 @@
 /* These styles are just to make it easier to see the blocks, initially. */
 
-.div-footer {
-	height: 80px;
-	background-color: yellow;
-
-}
-
-
-.content-wrapper {
-	padding-top: 10vmax;
-	padding-bottom: 10vmax;
-}
-
-
-.section-hero-2 {
-	height: 60vh;
-	background-color: lightblue;
-}
-
-
-.section-interview-text {
-	padding-left: 10vw;
-	padding-right: 10vw;
-	padding-top: 10vh;
-	padding-bottom: 10vh;
-}
-
-
-
-.test2 {
-	background-color:lightgrey;
-	font-family: sans-serif;
-	padding: 20px;
-	height: 80vh;
-}
-
 
 
 .test1 {
-	background-color: yellow;
-	font-family: sans-serif;
-	padding: 20px;
+	margin: 40px;
 	height: auto;
 }
 
-
-h1 {
-	font-family: sans-serif;
-	font-size: 2em;
-	font-weight: bold;
-	padding-bottom: 10px;
-}
-
 p {
-	font-family: sans-serif;
-	font-size: .85em;
+	font-size: 1.1em;
 	padding-bottom: 10px;
+	line-height: 80%;
 }
 
-
-a {
-	color: royalblue;
-}
 
 
 
