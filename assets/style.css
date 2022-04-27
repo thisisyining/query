@@ -3,36 +3,48 @@
 
 
 
+@media screen and (max-width: 800px) {
+	div {
+		background-color: red;
+	}
+}
+
+@media print {
+	section {
+		display: none;
+	}
+
+	div {
+		background-color: yellow;
+		border: 2px solid black;
+		font-size: 18pt;
+		padding: 0.5in;
+	}
+}
+
+
+
+
+
+
+
+
 .img-carbonara {
 	width: 14vw;
 }
 
 a {
-	color: blue;
+	color: grey;
 }
 
 div {
-	background-color: white;
 	margin-bottom: 1em;
 	max-width: 60vw;
 }
 
 
-/* @media screen and (min-width: 400px) {
-	div {
-		background-color: white;
-	}
-} */
 
-@media print {
-	div {
-		background-color: blue;
-		border: 2px solid red;
-		font-size: 18pt;
-		padding: 0.5in;
-		margin-bottom: 0.5in;
-	}
-}
+
 
 .test1 {
 	margin: 40px;
