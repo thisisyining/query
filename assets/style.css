@@ -1,55 +1,45 @@
-/* These styles are just to make it easier to see the blocks, initially. */
 
 
-div {
-		height: 100vh;
-		display: flex;
-	  flex-direction: column;
-		justify-content: space-between;
-		padding: 20px;
-	}
+
+.nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	height: 10vh;
+	background-color: purple;
+}
+
+
+
+.test1 {
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 20px;
+	height: 90vh;
+	background-color: purple;
+}
+
 
 .test1-hide {
 	display: none;
 }
 
-
-
-/* @media screen and (max-width: 800px) {
-	div {
-		background-color: red;
-	}
-} */
-
 @media print {
 
 .test1 {
-	display: none;
+		display: none;
 }
 
 .test1-hide {
 		display: block;
 	}
-
-	/* div {
-		background-color: pink;
-		border: 2px solid yellow;
-		font-size: 18pt;
-		padding: 0in;
-	}
-} */
-
-
-
-.test1 {
-	height: 100vh;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	height: auto;
-	height: 100vh;
-	background-color: purple;
 }
+
 
 
 
@@ -65,4 +55,8 @@ p {
 	font-size: 1.1em;
 	padding-bottom: 10px;
 	line-height: 1.2em;
+}
+
+a {
+	color: yellow;
 }
