@@ -1,21 +1,18 @@
 /* These styles are just to make it easier to see the blocks, initially. */
-.container {
-	width: 100%;
-	height: 100%;
-	background-color: coral;
-}
-
-section {
-	padding: 2%;
-	width: 100vw;
-	height: 600px;
-}
 
 
+div {
+		height: 100vh;
+		display: flex;
+	  flex-direction: column;
+		justify-content: space-between;
+		padding: 20px;
+	}
 
-div:nth-child(3) {
+.test1-hide {
 	display: none;
 }
+
 
 
 /* @media screen and (max-width: 800px) {
@@ -26,33 +23,22 @@ div:nth-child(3) {
 
 @media print {
 
-	div:nth-child(3) {
+.test1 {
+	display: none;
+}
+
+.test1-hide {
 		display: block;
 	}
 
-	div {
+	/* div {
 		background-color: pink;
 		border: 2px solid yellow;
 		font-size: 18pt;
 		padding: 0in;
 	}
-}
+} */
 
-
-
-.img-carbonara {
-	min-width: 200px;
-	max-width: 16vw;
-}
-
-a {
-	color: grey;
-	font-family: sans-serif;
-}
-
-div {
-	/* padding: 20px; */
-}
 
 
 .test1 {
@@ -65,55 +51,11 @@ div {
 	background-color: purple;
 }
 
-.test2 {
-	height: 100vh;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	height: auto;
-	height: 100vh;
-	background-color: yellow;
-}
-
-.test3 {
-	height: 100vh;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	height: auto;
-	height: 100vh;
-	background-color: green;
-}
-
-
-.test4 {
-	height: 100vh;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	height: auto;
-	height: 100vh;
-	background-color: blue;
-}
-
-.test5 {
-	height: 100vh;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	height: auto;
-	height: 100vh;
-	background-color: red;
-}
-
-
-
 
 
 h1 {
 	font-family: sans-serif;
 	font-size: 4em;
-	padding-bottom: 10px;
 	line-height: 1em;
 }
 
@@ -123,88 +65,4 @@ p {
 	font-size: 1.1em;
 	padding-bottom: 10px;
 	line-height: 1.2em;
-}
-
-
-
-
-/* img:hover {
-  animation: shake 0.5s;
-
-  animation-iteration-count: infinite;
-}
-
-@keyframes shake {
-  0% { transform: translate(1px, 1px) rotate(0deg); }
-  10% { transform: translate(-1px, -2px) rotate(-1deg); }
-  20% { transform: translate(-3px, 0px) rotate(1deg); }
-  30% { transform: translate(3px, 2px) rotate(0deg); }
-  40% { transform: translate(1px, -1px) rotate(1deg); }
-  50% { transform: translate(-1px, 2px) rotate(-1deg); }
-  60% { transform: translate(-3px, 1px) rotate(0deg); }
-  70% { transform: translate(3px, 1px) rotate(-1deg); }
-  80% { transform: translate(-1px, -1px) rotate(1deg); }
-  90% { transform: translate(1px, 2px) rotate(0deg); }
-  100% { transform: translate(1px, -2px) rotate(-1deg); }
-} */
-
-
-
-
-
-.flier {
-	pointer-events: none;
-}
-
-.flier > * {
-/* Adjust animation duration to change the element’s speed */
-        animation: fly 45s linear infinite;
-        pointer-events: none !important;
-	top: 0;
-	left: 0;
-	transform: translateX(-120%) translateY(-120%) rotateZ(0);
-	position: fixed;
-	animation-delay: 1s;
-	z-index: 999999;
-}
-
- /* Keyframe values control where the element will begin
-    and end its trajectory across the screen. Each rule
-    represents a path the element follows across the screen. */
-
-
-@keyframes fly {
-
-	98.001%, 0% {
-                display: block;
-		transform: translateX(-200%) translateY(100vh) rotateZ(0deg)
-	}
-
-	15% {
-		transform: translateX(100vw) translateY(-100%) rotateZ(180deg)
-	}
-
-	15.001%, 18% {
-		transform: translateX(100vw) translateY(-30%) rotateZ(0deg)
-	}
-
-	40% {
-		transform: translateX(-200%) translateY(3vh) rotateZ(-180deg)
-	}
-
-	40.001%, 43% {
-		transform: translateX(-200%) translateY(-100%) rotateZ(-180deg)
-	}
-
-	65% {
-		transform: translateX(100vw) translateY(50vh) rotateZ(0deg)
-	}
-
-	65.001%, 68% {
-		transform: translateX(20vw) translateY(-200%) rotateZ(180deg)
-	}
-
-	95% {
-		transform: translateX(10vw) translateY(100vh) rotateZ(0deg)
-	}
 }
