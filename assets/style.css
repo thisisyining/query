@@ -1,4 +1,16 @@
 /* These styles are just to make it easier to see the blocks, initially. */
+.container {
+	width: 100%;
+	height: 100%;
+	background-color: coral;
+}
+
+section {
+	padding: 2%;
+	width: 100vw;
+	height: 600px;
+}
+
 
 
 div:nth-child(3) {
@@ -35,19 +47,79 @@ div:nth-child(3) {
 
 a {
 	color: grey;
+	font-family: sans-serif;
 }
 
 div {
-	margin-bottom: 1em;
+	/* padding: 20px; */
 }
 
 
 .test1 {
-	margin: 40px;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 	height: auto;
+	height: 100vh;
+	background-color: purple;
 }
 
+.test2 {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: auto;
+	height: 100vh;
+	background-color: yellow;
+}
+
+.test3 {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: auto;
+	height: 100vh;
+	background-color: green;
+}
+
+
+.test4 {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: auto;
+	height: 100vh;
+	background-color: blue;
+}
+
+.test5 {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: auto;
+	height: 100vh;
+	background-color: red;
+}
+
+
+
+
+
+h1 {
+	font-family: sans-serif;
+	font-size: 4em;
+	padding-bottom: 10px;
+	line-height: 1em;
+}
+
+
 p {
+	font-family: sans-serif;
 	font-size: 1.1em;
 	padding-bottom: 10px;
 	line-height: 1.2em;
