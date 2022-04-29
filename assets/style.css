@@ -109,6 +109,17 @@ h3 {
 	text-transform: uppercase;
 }
 
+h4 {
+	font-family: sans-serif;
+	font-size: 16px;
+	color: black;
+}
+
+.forprint {
+	color: black;
+}
+
+
 p {
 	font-family: sans-serif;
 	font-size: 1.1em;
